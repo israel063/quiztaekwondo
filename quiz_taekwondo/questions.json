@@ -1,0 +1,255 @@
+[
+  {
+    "id": 1,
+    "faixa": "branca",
+    "imagem": "/static/images/apkubi.jpg",
+    "opcoes": ["AP KUBI PALMOK ARÊ MAKI", "AP KUBI MONTON TCHIRIGUI", "AP KUBI BACAT PALMOK MONTON MAKI", "AP KUBI SONAL OLGUL TCHIGUI"],
+    "correta": 0
+  },
+  {
+    "id": 2,
+    "faixa": "branca",
+    "imagem": "/static/images/monton.jpg",
+    "opcoes": ["AP KUBI MONTON TCHIRIGUI", "AP KUBI PALMOK ARÊ MAKI", "AP KUBI SONAL OLGUL TCHIGUI", "AP KUBI BACAT PALMOK MONTON MAKI"],
+    "correta": 0
+  },
+  {
+    "id": 3,
+    "faixa": "branca",
+    "imagem": "/static/images/bacatpalmok.jpg",
+    "opcoes": ["AP KUBI BACAT PALMOK MONTON MAKI", "AP KUBI MONTON TCHIRIGUI", "AP KUBI SONAL OLGUL TCHIGUI", "AP KUBI PALMOK OLGUL MAKI"],
+    "correta": 0
+  },
+  {
+    "id": 4,
+    "faixa": "branca",
+    "imagem": "/static/images/sonalolgul.jpg",
+    "opcoes": ["AP KUBI SONAL OLGUL TCHIGUI", "AP KUBI PALMOK OLGUL MAKI", "AP KUBI MONTON TCHIRIGUI", "AP KUBI BACAT PALMOK MONTON MAKI"],
+    "correta": 0
+  },
+  {
+    "id": 5,
+    "faixa": "branca",
+    "imagem": "/static/images/palmokolgul.jpg",
+    "opcoes": ["AP KUBI PALMOK OLGUL MAKI", "AP KUBI SONAL OLGUL TCHIGUI", "AP KUBI MONTON TCHIRIGUI", "AP KUBI BACAT PALMOK MONTON MAKI"],
+    "correta": 0
+  },
+  {
+    "id": 6,
+    "faixa": "amarela",
+    "imagem": "/static/images/palmoksonal.jpg",
+    "opcoes": ["AP KUBI PALMOK SONAL ARÊ MAKI", "AP KUBI SON CUT OPÔ TCHIRIGUI", "AP KUBI PALMOK MONTON AN MAKI", "AP KUBI DUNG JUMOK OLGUL TCHIGUI"],
+    "correta": 0
+  },
+  {
+    "id": 7,
+    "faixa": "amarela",
+    "imagem": "/static/images/soncut.jpg",
+    "opcoes": ["AP KUBI SON CUT OPÔ TCHIRIGUI", "AP KUBI PALMOK SONAL ARÊ MAKI", "AP KUBI PALMOK MONTON AN MAKI", "AP KUBI DUNG JUMOK OLGUL TCHIGUI"],
+    "correta": 0
+  },
+  {
+    "id": 8,
+    "faixa": "amarela",
+    "imagem": "/static/images/montonan.jpg",
+    "opcoes": ["AP KUBI PALMOK MONTON AN MAKI", "AP KUBI PALMOK SONAL ARÊ MAKI", "AP KUBI SON CUT OPÔ TCHIRIGUI", "AP KUBI DUNG JUMOK OLGUL TCHIGUI"],
+    "correta": 0
+  },
+  {
+    "id": 9,
+    "faixa": "amarela",
+    "imagem": "/static/images/jumokolgul.jpg",
+    "opcoes": ["AP KUBI DUNG JUMOK OLGUL TCHIGUI", "AP KUBI PALMOK SONAL ARÊ MAKI", "AP KUBI SON CUT OPÔ TCHIRIGUI", "AP KUBI PALMOK MONTON AN MAKI"],
+    "correta": 0
+  },
+  {
+    "id": 10,
+    "faixa": "amarela ponta verde",
+    "imagem": "/static/images/okuro.jpg",
+    "opcoes": ["AP KUBI PALMOK OKURÔ ARÊ MAKI", "AP KUBI DUL PALMOK JEITCHO MONTON TCHIGUI", "AP KUBI BACAT PALMOK REITCHO MONTON MAKI", "AP KUBI DUL SONNAL OLGUL TCHIGUI"],
+    "correta": 0
+  },
+  {
+    "id": 11,
+    "faixa": "amarela ponta verde",
+    "imagem": "/static/images/jeitcho.jpg",
+    "opcoes": ["AP KUBI DUL PALMOK JEITCHO MONTON TCHIGUI", "AP KUBI PALMOK OKURÔ ARÊ MAKI", "AP KUBI BACAT PALMOK REITCHO MONTON MAKI", "AP KUBI DUL SONNAL OLGUL TCHIGUI"],
+    "correta": 0
+  },
+  {
+    "id": 12,
+    "faixa": "amarela ponta verde",
+    "imagem": "/static/images/reitcho.jpg",
+    "opcoes": ["AP KUBI BACAT PALMOK REITCHO MONTON MAKI", "AP KUBI PALMOK OKURÔ ARÊ MAKI", "AP KUBI DUL PALMOK JEITCHO MONTON TCHIGUI", "AP KUBI DUL SONNAL OLGUL TCHIGUI"],
+    "correta": 0
+  },
+  {
+    "id": 13,
+    "faixa": "amarela ponta verde",
+    "imagem": "/static/images/dulsonnal.jpg",
+    "opcoes": ["AP KUBI DUL SONNAL OLGUL TCHIGUI", "AP KUBI PALMOK OKURÔ ARÊ MAKI", "AP KUBI DUL PALMOK JEITCHO MONTON TCHIGUI", "AP KUBI BACAT PALMOK REITCHO MONTON MAKI"],
+    "correta": 0
+  },
+  {
+    "id": 14,
+    "faixa": "verde",
+    "imagem": "/static/images/duitsonnal.jpg",
+    "opcoes": ["DUIT KUBI SONNAL MONTON MAKI", "DUIT KUBI AN PALMOK MONTON MAKI", "DUIT KUBI BATANSON MIRÔ MAKI"],
+    "correta": 0
+  },
+  {
+    "id": 15,
+    "faixa": "verde",
+    "imagem": "/static/images/duitanpalmok.jpg",
+    "opcoes": ["DUIT KUBI AN PALMOK MONTON MAKI", "DUIT KUBI SONNAL MONTON MAKI", "DUIT KUBI BATANSON MIRÔ MAKI"],
+    "correta": 0
+  },
+  {
+    "id": 16,
+    "faixa": "verde",
+    "imagem": "/static/images/duitbatan.jpg",
+    "opcoes": ["DUIT KUBI BATANSON MIRÔ MAKI", "DUIT KUBI SONNAL MONTON MAKI", "DUIT KUBI AN PALMOK MONTON MAKI"],
+    "correta": 0
+  },
+  {
+    "id": 17,
+    "faixa": "verde ponta azul",
+    "imagem": "/static/images/hansonnal.jpg",
+    "opcoes": ["DUIT KUBI HANSONNAL OLGUL TCHIGUI", "DUIT KUBI TATANSON NULÔ MAKI", "DUIT KUBI BARÔ MONTON DIRIGUI", "DUIT KUBI DOLIÔ TOK TCHIGUI", "DUIT KUBI DUNG SONNAL MONTON MAKI"],
+    "correta": 0
+  },
+  {
+    "id": 18,
+    "faixa": "verde ponta azul",
+    "imagem": "/static/images/batansonnulo.jpg",
+    "opcoes": ["DUIT KUBI TATANSON NULÔ MAKI", "DUIT KUBI HANSONNAL OLGUL TCHIGUI", "DUIT KUBI BARÔ MONTON DIRIGUI", "DUIT KUBI DOLIÔ TOK TCHIGUI", "DUIT KUBI DUNG SONNAL MONTON MAKI"],
+    "correta": 0
+  },
+  {
+    "id": 19,
+    "faixa": "verde ponta azul",
+    "imagem": "/static/images/baromonton.jpg",
+    "opcoes": ["DUIT KUBI BARÔ MONTON DIRIGUI", "DUIT KUBI HANSONNAL OLGUL TCHIGUI", "DUIT KUBI TATANSON NULÔ MAKI", "DUIT KUBI DOLIÔ TOK TCHIGUI", "DUIT KUBI DUNG SONNAL MONTON MAKI"],
+    "correta": 0
+  },
+  {
+    "id": 20,
+    "faixa": "verde ponta azul",
+    "imagem": "/static/images/doliotok.jpg",
+    "opcoes": ["DUIT KUBI DOLIÔ TOK TCHIGUI", "DUIT KUBI HANSONNAL OLGUL TCHIGUI", "DUIT KUBI TATANSON NULÔ MAKI", "DUIT KUBI BARÔ MONTON DIRIGUI", "DUIT KUBI DUNG SONNAL MONTON MAKI"],
+    "correta": 0
+  },
+  {
+    "id": 21,
+    "faixa": "verde ponta azul",
+    "imagem": "/static/images/dungsonnal.jpg",
+    "opcoes": ["DUIT KUBI DUNG SONNAL MONTON MAKI", "DUIT KUBI HANSONNAL OLGUL TCHIGUI", "DUIT KUBI TATANSON NULÔ MAKI", "DUIT KUBI BARÔ MONTON DIRIGUI", "DUIT KUBI DOLIÔ TOK TCHIGUI"],
+    "correta": 0
+  },
+  {
+    "id": 22,
+    "faixa": "azul",
+    "imagem": "/static/images/goduro.jpg",
+    "opcoes": ["DUIT KUBI GODURÔ AN PALMOK MONTON MAKI", "COA SAGÔ ME JUMOK NÉRYO TCHIGUI", "DUIT KUBI DUL SONAL ARÊ MAKI", "AP KUBI PYOJOK OLGUL TCHIGUI", "DUIT KUBI OKURÔ DUL SONAL OLGUL MAKI"],
+    "correta": 0
+  },
+  {
+    "id": 23,
+    "faixa": "azul",
+    "imagem": "/static/images/mejumok.jpg",
+    "opcoes": ["COA SAGÔ ME JUMOK NÉRYO TCHIGUI", "DUIT KUBI GODURÔ AN PALMOK MONTON MAKI", "DUIT KUBI DUL SONAL ARÊ MAKI", "AP KUBI PYOJOK OLGUL TCHIGUI", "DUIT KUBI OKURÔ DUL SONAL OLGUL MAKI"],
+    "correta": 0
+  },
+  {
+    "id": 24,
+    "faixa": "azul",
+    "imagem": "/static/images/dulsonal.jpg",
+    "opcoes": ["DUIT KUBI DUL SONAL ARÊ MAKI", "DUIT KUBI GODURÔ AN PALMOK MONTON MAKI", "COA SAGÔ ME JUMOK NÉRYO TCHIGUI", "AP KUBI PYOJOK OLGUL TCHIGUI", "DUIT KUBI OKURÔ DUL SONAL OLGUL MAKI"],
+    "correta": 0
+  },
+  {
+    "id": 25,
+    "faixa": "azul",
+    "imagem": "/static/images/pyojok.jpg",
+    "opcoes": ["AP KUBI PYOJOK OLGUL TCHIGUI", "DUIT KUBI GODURÔ AN PALMOK MONTON MAKI", "COA SAGÔ ME JUMOK NÉRYO TCHIGUI", "DUIT KUBI DUL SONAL ARÊ MAKI", "DUIT KUBI OKURÔ DUL SONAL OLGUL MAKI"],
+    "correta": 0
+  },
+  {
+    "id": 26,
+    "faixa": "azul",
+    "imagem": "/static/images/okuro.jpg",
+    "opcoes": ["DUIT KUBI OKURÔ DUL SONAL OLGUL MAKI", "DUIT KUBI GODURÔ AN PALMOK MONTON MAKI", "COA SAGÔ ME JUMOK NÉRYO TCHIGUI", "DUIT KUBI DUL SONAL ARÊ MAKI", "AP KUBI PYOJOK OLGUL TCHIGUI"],
+    "correta": 0
+  },
+   {
+    "id": 27,
+    "faixa": "azul ponta vermelha",
+    "imagem": "/static/images/kumgang.jpg",
+    "opcoes": ["DUIT KUBI KUMGANG MAKI", "AP KUBI JEBI POOM MOK OLGUL TCHIGUI", "DUIT KUBI DUL PALMOK ARÊ MAKI", "AP KUBI BARÔ PALKUB OLIÔ TCHIGUI", "AP KUBI BARÔ AGUSON OLGUL TCHIGUI"],
+    "correta": 0
+  },
+  {
+    "id": 28,
+    "faixa": "azul ponta vermelha",
+    "imagem": "/static/images/jebipoom.jpg",
+    "opcoes": ["AP KUBI JEBI POOM MOK OLGUL TCHIGUI", "DUIT KUBI KUMGANG MAKI", "DUIT KUBI DUL PALMOK ARÊ MAKI", "AP KUBI BARÔ PALKUB OLIÔ TCHIGUI", "AP KUBI BARÔ AGUSON OLGUL TCHIGUI"],
+    "correta": 0
+  },
+  {
+    "id": 29,
+    "faixa": "azul ponta vermelha",
+    "imagem": "/static/images/dulpalmok.jpg",
+    "opcoes": ["DUIT KUBI DUL PALMOK ARÊ MAKI", "DUIT KUBI KUMGANG MAKI", "AP KUBI JEBI POOM MOK OLGUL TCHIGUI", "AP KUBI BARÔ PALKUB OLIÔ TCHIGUI", "AP KUBI BARÔ AGUSON OLGUL TCHIGUI"],
+    "correta": 0
+  },
+  {
+    "id": 30,
+    "faixa": "azul ponta vermelha",
+    "imagem": "/static/images/baropalkub.jpg",
+    "opcoes": ["AP KUBI BARÔ PALKUB OLIÔ TCHIGUI", "DUIT KUBI KUMGANG MAKI", "AP KUBI JEBI POOM MOK OLGUL TCHIGUI", "DUIT KUBI DUL PALMOK ARÊ MAKI", "AP KUBI BARÔ AGUSON OLGUL TCHIGUI"],
+    "correta": 0
+  },
+  {
+    "id": 31,
+    "faixa": "azul ponta vermelha",
+    "imagem": "/static/images/baroaguson.jpg",
+    "opcoes": ["AP KUBI BARÔ AGUSON OLGUL TCHIGUI", "DUIT KUBI KUMGANG MAKI", "AP KUBI JEBI POOM MOK OLGUL TCHIGUI", "DUIT KUBI DUL PALMOK ARÊ MAKI", "AP KUBI BARÔ PALKUB OLIÔ TCHIGUI"],
+    "correta": 0
+  },
+  {
+    "id": 32,
+    "faixa": "vermelha",
+    "imagem": "/static/images/kubidulpalmok.jpg",
+    "opcoes": ["DUIT KUBI DUL PALMOK MONTON MAKI", "AP KUBI GAUÊ MAKI", "AP KUBI BARÔ PALKUB DOLIÔ-DUNG JUMOK BANDÊ MONTON TCHIRIGUI", "AP KUBI BARÔ PALTOK OLGUL TCHIGUI", "DUIT KUBI DUL SONAL MONTON MAKI"],
+    "correta": 0
+  },
+  {
+    "id": 33,
+    "faixa": "vermelha",
+    "imagem": "/static/images/gaue.jpg",
+    "opcoes": ["AP KUBI GAUÊ MAKI", "DUIT KUBI DUL PALMOK MONTON MAKI", "AP KUBI BARÔ PALKUB DOLIÔ-DUNG JUMOK BANDÊ MONTON TCHIRIGUI", "AP KUBI BARÔ PALTOK OLGUL TCHIGUI", "DUIT KUBI DUL SONAL MONTON MAKI"],
+    "correta": 0
+  },
+  {
+    "id": 34,
+    "faixa": "vermelha",
+    "imagem": "/static/images/gifvermelha.gif",
+    "opcoes": ["AP KUBI BARÔ PALKUB DOLIÔ-DUNG JUMOK BANDÊ MONTON TCHIRIGUI", "DUIT KUBI DUL PALMOK MONTON MAKI", "AP KUBI GAUÊ MAKI", "AP KUBI BARÔ PALTOK OLGUL TCHIGUI", "DUIT KUBI DUL SONAL MONTON MAKI"],
+    "correta": 0
+  },
+  {
+    "id": 35,
+    "faixa": "vermelha",
+    "imagem": "/static/images/baropaltok.jpg",
+    "opcoes": ["AP KUBI BARÔ PALTOK OLGUL TCHIGUI", "DUIT KUBI DUL PALMOK MONTON MAKI", "AP KUBI GAUÊ MAKI", "AP KUBI BARÔ PALKUB DOLIÔ-DUNG JUMOK BANDÊ MONTON TCHIRIGUI", "DUIT KUBI DUL SONAL MONTON MAKI"],
+    "correta": 0
+  },
+  {
+    "id": 36,
+    "faixa": "vermelha",
+    "imagem": "/static/images/dulsonal.jpg",
+    "opcoes": ["DUIT KUBI DUL SONAL MONTON MAKI", "DUIT KUBI DUL PALMOK MONTON MAKI", "AP KUBI GAUÊ MAKI", "AP KUBI BARÔ PALKUB DOLIÔ-DUNG JUMOK BANDÊ MONTON TCHIRIGUI", "AP KUBI BARÔ PALTOK OLGUL TCHIGUI"],
+    "correta": 0
+  }
+]
+

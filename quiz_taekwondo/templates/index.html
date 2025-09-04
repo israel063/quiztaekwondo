@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Taekwondo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Quiz de Taekwondo</h1>
+
+    <div id="quiz-container">
+        <div id="faixa-indicador"></div>
+        <img id="pergunta-img" src="" alt="Movimento de Taekwondo">
+        <div id="opcoes"></div>
+    </div>
+
+    <button id="proxima-btn" onclick="proximaPergunta()" style="display:none;">Próxima Pergunta</button>
+
+    <div id="resultado"></div>
+    <div id="pontuacao">Pontuação: 0</div>
+
+    <script>
+        let pontuacao = 0;
+        let perguntaAtual = null;
+
+        async function carregarPergunta() {
+            document.getElementById("resultado").textContent = "";
+            document.getElementById("proxima-btn").style.display = "none";
+
+            // Lê o JSON local
+            const res = await fetch("questions.json");
+            const perguntas = await res.json();
+            const pergunta = perguntas[Math.floor(Math.random() * perguntas.length)];
+            perguntaAtual = pergunta;
+
+            const img = document.getElementById("pergunta-img");
+            img.src = pergunta.imagem;
+            img.alt = `Movimento: ${pergunta.opcoes[pergunta.correta]}`;
+
+            const opcoesDiv = document.getElementById("opcoes");
+            opcoesDiv.innerHTML = "";
+
+            pergunta.opcoes.forEach((opcao, index) => {
+                const btn = document.createElement("button");
+                btn.textContent = opcao;
+                btn.addEventListener("click", () => {
+                    verificarResposta(index);
+                    document.querySelectorAll("#opcoes button").forEach(b => b.disabled = true);
+                });
+                opcoesDiv.appendChild(btn);
+            });
+
+            // Cor da faixa
+            const faixaIndicador = document.getElementById("faixa-indicador");
+            let corFaixa = "#fff";
+            if (pergunta.faixa) {
+                switch (pergunta.faixa.toLowerCase()) {
+                    case "branca": corFaixa = "#ffffff"; break;
+                    case "amarela": corFaixa = "#ffff66"; break;
+                    case "amarela ponta verde": corFaixa = "#ccff66"; break;
+                    case "verde": corFaixa = "#00cc00"; break;
+                    case "verde ponta azul": corFaixa = "#0099ff"; break;
+                    case "azul ponta vermelha": corFaixa = "#ff3333"; break;
+                    case "vermelha": corFaixa = "#cc0000"; break;
+                }
+            }
+            faixaIndicador.style.backgroundColor = corFaixa;
+        }
+
+        function verificarResposta(indiceEscolhido) {
+            const correta = indiceEscolhido === perguntaAtual.correta;
+            if (correta) {
+                pontuacao++;
+                document.getElementById("resultado").textContent = "✅ Correto!";
+            } else {
+                document.getElementById("resultado").textContent = `❌ Errado! Resposta correta: ${perguntaAtual.opcoes[perguntaAtual.correta]}`;
+            }
+            document.getElementById("pontuacao").textContent = `Pontuação: ${pontuacao}`;
+            document.getElementById("proxima-btn").style.display = "block";
+        }
+
+        function proximaPergunta() {
+            carregarPergunta();
+        }
+
+        window.onload = carregarPergunta;
+    </script>
+
+</body>
+</html>
